@@ -1,0 +1,123 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  width: 55%;
+}
+
+.highlight{
+  color: darkblue;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (min-width : 1201px) and (max-width : 1600px ) {
+
+.right{
+  margin-left: 450px;
+}
+
+.left, .right{
+  display: inline;
+  width: 600px;
+  height: 300px;
+}
+
+div > h2{
+  display: inline-block;
+  position: absolute;
+}
+
+div > p{
+  display: inline-block;
+  position: absolute;
+  margin-top: 70px;
+  width: 270px;
+}
+
+div > h2,div > p{
+margin-left: 50px;
+}
+
+.tile-image{
+  width: 300px;
+}
+
+}
+
+@media(max-width : 1200px ) {
+  
+  .left, .right{
+    display: block;
+    width: 600px;
+    height: 300px;
+  }
+  
+  div > h2{
+    display: inline;
+    position: absolute;
+  }
+  
+  div > p{
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    margin-top: 70px;
+  }
+  
+  div > h2,div > p{
+  margin-left: 30px;
+  }
+  
+  .tile-image{
+    width: 300px;
+  }
+  
+}
+
+@media (max-width : 600px ) {
+
+  .logo{
+    width: 100px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  
+  .left, .right{
+    display: block;
+    width: 550px;
+    height: 500px;
+  }
+  
+  div > h2{
+    display: block;
+  }
+  
+  div > p{
+    display: block;
+    width: 200px;
+  }
+  
+  
+  .tile-image{
+    width: 300px;
+  }
+  
+  }
+
